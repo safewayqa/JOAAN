@@ -5,7 +5,7 @@ Given chrome driver triggered
 When Browser launched
 Then Chrome browser displayed
 
-@RegTest
+@RegTest @AUTO-2
 Scenario: Home page testing the aaplication
 Given user landing page
 When user enters the user name "Rafi" and password "Nargees"
